@@ -7,3 +7,7 @@ Examples
 makeAbba('Hi', 'Bye') → HiByeByeHi
 makeAbba('Yo', 'Alice') → YoAliceAliceYo
 makeAbba('What', 'Up') → WhatUpUpWhat
+
+function makeAbba(a, b){
+    return a+ b+b+a
+  }
