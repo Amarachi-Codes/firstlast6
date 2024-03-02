@@ -16,3 +16,8 @@ function firstTwo(str){
     return str.charAt(0) + str.charAt(1)
     }
   }
+
+  function sum(a,b){
+    return a+ b;
+  }
+  console.log(sum(1,' 2'));
